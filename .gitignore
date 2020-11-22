@@ -15,4 +15,9 @@ server/media/*
 !server/media/.gitkeep
 
 # Ignore database
-server/data/db/
+server/data/db/*.wt
+server/data/db/*.lock
+server/data/db/*.bson
+server/data/db/WiredTiger*
+server/data/db/journal/
+server/data/db/diagnostic.data/
